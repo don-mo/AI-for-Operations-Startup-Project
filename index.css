@@ -1,7 +1,5 @@
-body {
+h1, h3, button {
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
-  gap: 10px;
 }
