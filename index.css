@@ -13,6 +13,8 @@
 }
 
 body {
+  background-color: blue;
+  color: lightgray;
   font-size: 16px;
   line-height: 125%;
   margin: 0;
@@ -25,4 +27,12 @@ h2 {
 
 h1 {
   font-size: 200%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
 }
