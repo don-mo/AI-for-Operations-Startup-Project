@@ -7,7 +7,9 @@
 }
 
 .hero-item {
+  max-width: fit-content;
   padding: 10px 20px;
+  margin-inline-start: auto;
 }
 
 body {
