@@ -1,5 +1,5 @@
-h1, h3, button {
+.hero {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
