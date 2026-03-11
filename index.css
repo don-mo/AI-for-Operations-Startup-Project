@@ -7,12 +7,12 @@
 }
 
 .hero-item {
-  max-width: fit-content;
-  padding: 10px 20px;
-  margin-inline-start: auto;
+  width: 50%;
+  height: 40%;
 }
 
 body {
+  max-width: 20em;
   font-size: 16px;
   line-height: 125%;
 }
