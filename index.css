@@ -1,4 +1,4 @@
-.hero, .problem, .solution{
+#hero, #problem, #solution{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,15 +6,15 @@
   gap: 10px;
 }
 
-.hero, .solution {
+#hero, #solution {
   background-color: oklch(22% 0.05 270);
 }
 
-.hero, .problem,.solution {
+#hero, #problem{
   height: 100vh;
 }
 
-.problem {
+#problem {
   background-color: oklch(80% 0.05 270);
 }
 
@@ -23,7 +23,7 @@ h2, h3 {
   padding-top: 5px;
 }
 
-.hero-item, div.solution p, .problem p {
+#hero-item, div#solution p, #problem p {
   width: 50%;
 }
 
@@ -73,11 +73,14 @@ button {
 }
 
 button:hover {
-  background-color: #14213d;
   color: #fca311;
 }
 
-.problem p, .problem h2 {
+button:hover, #navbar {
+  background-color: #14213d;
+}
+
+#problem p, #problem h2 {
   color: black;
 }
 
@@ -89,4 +92,31 @@ strong.black {
   color: black;
 }
 
+div#solution {
+  height: 125vh;
+}
+
+#title {
+  font-size: 1000%;
+}
+
+#navbar {
+  /*3-13-26*/
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
