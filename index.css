@@ -1,14 +1,29 @@
-.hero{
+.hero, .problem, .solution{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  height: 100vh;
-  background-color: #14213d;
 }
 
-.hero-item {
+.hero, .solution {
+  background-color: oklch(22% 0.05 270);
+}
+
+.hero, .problem,.solution {
+  height: 100vh;
+}
+
+.problem {
+  background-color: oklch(80% 0.05 270);
+}
+
+h2, h3 {
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+.hero-item, div.solution p, .problem p {
   width: 50%;
 }
 
@@ -41,6 +56,11 @@ h1 {
   font-size: 200%;
 }
 
+p {
+  font-size: 150%;
+  line-height: 1cm;
+}
+
 button {
   background-color: #fca311;
   color: #14213d;
@@ -57,5 +77,16 @@ button:hover {
   color: #fca311;
 }
 
+.problem p, .problem h2 {
+  color: black;
+}
+
+strong {
+  color: #fca311;
+}
+
+strong.black {
+  color: black;
+}
 
 
